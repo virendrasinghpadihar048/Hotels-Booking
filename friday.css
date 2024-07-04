@@ -1,0 +1,305 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+.contatiner{
+    margin-top:70px;
+    border:2px solid black;
+    height:400px;
+    width:100%;
+
+}
+/*navbar section*/
+.navbar{
+    display: flex;
+    background-color: rgb(8, 11, 11);
+    margin:30px;
+    border:2px solid black;
+    border-radius:10px;
+    padding:20px;
+    
+}
+.navbar button{
+    padding:10px;
+    border-radius:5px;
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+}
+.navbar button:hover{
+    background-color: rgb(166, 234, 232);
+    color:black;
+}
+#itemof{
+    display:flex;
+    justify-content: center;
+    width:60%;
+    gap:4rem;
+    padding:20px;
+}
+#lux{
+    margin-left:30px;
+}
+
+/*videos section*/
+.videos{
+    
+    height:600px;
+    width:100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+    font-size: 2rem;
+}
+#videodiv{
+    border-radius: 10px;
+}
+
+.cont{
+    margin-top: 60px;
+    border:2px solid red;
+    height:600px;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 120px;
+}
+.item{
+    border:2px solid black;
+}
+#item2 img{
+    width:100%;
+    height:600px;
+}
+#item2{
+    width:800px;
+}
+#item1{
+    justify-self: center;
+    align-self:center ;
+    font-size: 2rem;
+}
+#item2 img:hover{
+    background-image: url(Jaipur.jpg);
+}
+
+/*marquee section*/
+#img-cont{
+    height:100vh;
+    width:100%;
+    background-color: rgb(255, 255, 226);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap:2rem;
+}
+
+#img-cont img{
+    display: inline-block;
+    border-radius: 20px;
+}
+.displays{
+    
+   place-self: center;
+    
+   
+}
+
+.gridspayment{
+    height:60vh;
+    width:100%;
+    background-color:  rgb(255, 255, 226);
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap:20px;
+    padding:2rem;
+}
+.cards{
+   
+    border-radius:10px;
+    height:400px;
+}
+#card1{
+    display:flex;
+    flex-direction: column;
+    
+    
+    color:white;
+}
+#content1{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+#content2{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+#content2 a{
+    text-decoration: none;
+    color:black;
+}
+#bookbtn{
+    text-align: center;
+    padding:10px;
+    width:50%;
+    border-radius:10px;
+}
+#main{
+   display:flex;
+   justify-content: center;
+}
+#window{
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+.back{
+    background-color: black;
+}
+.dealscont{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height:40vh;
+    width:100%;
+    background-color: rgb(222, 184, 115);
+}
+#dont{
+    font-size:4rem;
+}
+input{
+    padding:20px;
+    border:2px solid black;
+    border-radius:10px;
+}
+#follow{
+    color:white;
+    padding:20px;
+    border:2px solid black;
+    border-radius:20px;
+    background-color: rgb(0, 0, 0);
+   
+}
+#add{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.ocean{
+    padding:3rem;
+    height:80vh;
+    width:100%;
+    background-color: rgb(218, 168, 168);
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    gap:30px;
+    color:white;
+   
+}
+.ocean img{
+    margin:30px;
+    border-radius:10px;
+}
+#viewcont{
+    
+    
+}
+#oceanview{
+    font-size:3rem;
+}
+.views{
+    line-height: 30px;;
+}
+
+#dream-cont{
+    border-radius:10px;
+    background-color: black;
+    color:white;
+    border: 2px solid black;
+    height:300px;
+}
+#dream-count p{
+    font-size:5rem;
+}
+.dream{
+    height:200px;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.dream p{
+    font-size:20px;
+    line-height: 16px;
+}
+/*icons*/
+.conts{
+    height:100px;
+    color:white;
+    background-color: black;
+   
+    display:flex;
+    justify-content: center;  
+    align-items: center;
+    gap:70px;
+    background-color: rgb(8, 5, 5);
+}
+#icons{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:40px;
+}
+.setheight{
+    font-size: 50px;
+}
+/*get in touch*/
+#touchtext{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.twosec{
+    background-color: rgb(216, 158, 158);
+   
+    color:white;
+    border-radius: 20px;
+    height:300px;
+    width:100%;
+   
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.itemstouch{
+    
+}
+#itemtouch1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
